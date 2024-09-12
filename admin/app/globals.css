@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Unageo-R"; 
+  src: local("Unageo-Regular"), url("../assets/fonts/Unageo-Regular.ttf") format("truetype");
+}
+
+.r {
+  font-family: "Unageo-R";
+}
+
+@font-face {
+  font-family: "Unageo-SB"; 
+  src: local("Unageo-Semibold"), url("../assets/fonts/Unageo-Semibold.ttf") format("truetype");
+}
+
+.sb {
+  font-family: "Unageo-SB";
+}
+
+@font-face {
+  font-family: "Unageo-B"; 
+  src: local("Unageo-Bold"), url("../assets/fonts/Unageo-Bold.ttf") format("truetype");
+}
+
+.b {
+  font-family: "Unageo-B";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background: #f5f5f5;
+  font-family: #222222;
+  font-size: 20px;
+}
